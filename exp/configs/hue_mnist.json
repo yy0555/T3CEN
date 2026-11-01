@@ -1,0 +1,173 @@
+{
+    "h1s1l1": {
+        "dataset_name": "hue_mnist",
+        "dataset_kwargs": {
+            "validation_fraction": 0.1,
+            "split_seed": 1999
+        },
+        "num_classes": 10,
+        "network_name": "z2cnn",
+        "n_groups_hue": 1,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "sgd",
+        "lr": 0.001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_epochs": 5
+    },
+    "h20s1l1": {
+        "dataset_name": "hue_mnist",
+        "dataset_kwargs": {
+            "validation_fraction": 0.1,
+            "split_seed": 1999
+        },
+        "num_classes": 10,
+        "network_name": "z2cnn",
+        "n_groups_hue": 20,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "sgd",
+        "lr": 0.001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_epochs": 5
+    },
+    "h2s1l1": {
+        "dataset_name": "hue_mnist",
+        "dataset_kwargs": {
+            "validation_fraction": 0.1,
+            "split_seed": 1999
+        },
+        "num_classes": 10,
+        "network_name": "z2cnn",
+        "n_groups_hue": 2,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "sgd",
+        "lr": 0.001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_epochs": 5
+    },
+    "h3s1l1": {
+        "dataset_name": "hue_mnist",
+        "dataset_kwargs": {
+            "validation_fraction": 0.1,
+            "split_seed": 1999
+        },
+        "num_classes": 10,
+        "network_name": "z2cnn",
+        "n_groups_hue": 3,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "sgd",
+        "lr": 0.001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_epochs": 5
+    },
+    "h4s1l1": {
+        "dataset_name": "hue_mnist",
+        "dataset_kwargs": {
+            "validation_fraction": 0.1,
+            "split_seed": 1999
+        },
+        "num_classes": 10,
+        "network_name": "z2cnn",
+        "n_groups_hue": 4,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "sgd",
+        "lr": 0.001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_epochs": 5
+    },
+    "h5s1l1": {
+        "dataset_name": "hue_mnist",
+        "dataset_kwargs": {
+            "validation_fraction": 0.1,
+            "split_seed": 1999
+        },
+        "num_classes": 10,
+        "network_name": "z2cnn",
+        "n_groups_hue": 5,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "sgd",
+        "lr": 0.001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_epochs": 5
+    },
+    "h6s1l1": {
+        "dataset_name": "hue_mnist",
+        "dataset_kwargs": {
+            "validation_fraction": 0.1,
+            "split_seed": 1999
+        },
+        "num_classes": 10,
+        "network_name": "z2cnn",
+        "n_groups_hue": 6,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "sgd",
+        "lr": 0.001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_epochs": 5
+    },
+    "h7s1l1": {
+        "dataset_name": "hue_mnist",
+        "dataset_kwargs": {
+            "validation_fraction": 0.1,
+            "split_seed": 1999
+        },
+        "num_classes": 10,
+        "network_name": "z2cnn",
+        "n_groups_hue": 7,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "sgd",
+        "lr": 0.001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_epochs": 5
+    },
+    "h8s1l1": {
+        "dataset_name": "hue_mnist",
+        "dataset_kwargs": {
+            "validation_fraction": 0.1,
+            "split_seed": 1999
+        },
+        "num_classes": 10,
+        "network_name": "z2cnn",
+        "n_groups_hue": 8,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "sgd",
+        "lr": 0.001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_epochs": 5
+    }
+}

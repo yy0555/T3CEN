@@ -1,0 +1,131 @@
+{
+    "h1s1l4": {
+        "dataset_name": "stanford_cars",
+        "dataset_kwargs": {
+            "test_shifts": [
+                "original",
+                "saturation",
+                "luminance"
+            ]
+        },
+        "num_classes": 196,
+        "network_name": "resnet18",
+        "n_groups_hue": 1,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 4,
+        "manual_seed": 1999,
+        "optimizer": "adam",
+        "lr": 0.01,
+        "scheduler": "none",
+        "batch_size": 16,
+        "loss_name": "cross_entropy",
+        "n_epochs": 300
+    },
+    "h1s4l1": {
+        "dataset_name": "stanford_cars",
+        "dataset_kwargs": {
+            "test_shifts": [
+                "original",
+                "saturation",
+                "luminance"
+            ]
+        },
+        "num_classes": 196,
+        "network_name": "resnet18",
+        "n_groups_hue": 1,
+        "n_groups_saturation": 4,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "adam",
+        "lr": 0.01,
+        "scheduler": "none",
+        "batch_size": 16,
+        "loss_name": "cross_entropy",
+        "n_epochs": 300
+    },
+    "h1s4l4": {
+        "dataset_name": "stanford_cars",
+        "dataset_kwargs": {
+            "test_shifts": [
+                "original",
+                "saturation",
+                "luminance"
+            ]
+        },
+        "num_classes": 196,
+        "network_name": "resnet18",
+        "n_groups_hue": 1,
+        "n_groups_saturation": 4,
+        "n_groups_luminance": 4,
+        "manual_seed": 1999,
+        "optimizer": "adam",
+        "lr": 0.01,
+        "scheduler": "none",
+        "batch_size": 16,
+        "loss_name": "cross_entropy",
+        "n_epochs": 300
+    },
+    "h4s1l1": {
+        "dataset_name": "stanford_cars",
+        "dataset_kwargs": {
+            "test_shifts": [
+                "original",
+                "saturation",
+                "luminance"
+            ]
+        },
+        "num_classes": 196,
+        "network_name": "resnet18",
+        "n_groups_hue": 4,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "adam",
+        "lr": 0.01,
+        "scheduler": "none",
+        "batch_size": 16,
+        "loss_name": "cross_entropy",
+        "n_epochs": 300
+    },
+    "h4s1l4": {
+        "dataset_name": "stanford_cars",
+        "dataset_kwargs": {
+            "test_shifts": [
+                "luminance"
+            ]
+        },
+        "num_classes": 196,
+        "network_name": "resnet18",
+        "n_groups_hue": 4,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 4,
+        "manual_seed": 1999,
+        "optimizer": "adam",
+        "lr": 0.01,
+        "scheduler": "none",
+        "batch_size": 16,
+        "loss_name": "cross_entropy",
+        "n_epochs": 300
+    },
+    "h4s4l1": {
+        "dataset_name": "stanford_cars",
+        "dataset_kwargs": {
+            "test_shifts": [
+                "original",
+                "saturation"
+            ]
+        },
+        "num_classes": 196,
+        "network_name": "resnet18",
+        "n_groups_hue": 4,
+        "n_groups_saturation": 4,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "adam",
+        "lr": 0.01,
+        "scheduler": "none",
+        "batch_size": 16,
+        "loss_name": "cross_entropy",
+        "n_epochs": 300
+    }
+}

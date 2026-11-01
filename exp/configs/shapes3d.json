@@ -1,0 +1,102 @@
+{
+    "h1s3l1": {
+        "dataset_name": "shapes3d",
+        "dataset_kwargs": {
+            "protocol": "saturation",
+            "train_fraction": 0.8,
+            "split_seed": 1999
+        },
+        "num_classes": 4,
+        "network_name": "resnet44",
+        "n_groups_hue": 1,
+        "n_groups_saturation": 3,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "adam",
+        "lr": 0.0001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_iters": 10000
+    },
+    "h3s1l1": {
+        "dataset_name": "shapes3d",
+        "dataset_kwargs": {
+            "protocol": "hue",
+            "train_fraction": 0.8,
+            "split_seed": 1999
+        },
+        "num_classes": 4,
+        "network_name": "resnet44",
+        "n_groups_hue": 3,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "adam",
+        "lr": 0.0001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_iters": 10000
+    },
+    "h3s3l3": {
+        "dataset_name": "shapes3d",
+        "dataset_kwargs": {
+            "protocol": "hsl",
+            "train_fraction": 0.8,
+            "split_seed": 1999
+        },
+        "num_classes": 4,
+        "network_name": "resnet44",
+        "n_groups_hue": 3,
+        "n_groups_saturation": 3,
+        "n_groups_luminance": 3,
+        "manual_seed": 1999,
+        "optimizer": "adam",
+        "lr": 0.0001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_iters": 10000
+    },
+    "h4s1l1": {
+        "dataset_name": "shapes3d",
+        "dataset_kwargs": {
+            "protocol": "hue",
+            "train_fraction": 0.8,
+            "split_seed": 1999
+        },
+        "num_classes": 4,
+        "network_name": "resnet44",
+        "n_groups_hue": 4,
+        "n_groups_saturation": 1,
+        "n_groups_luminance": 1,
+        "manual_seed": 1999,
+        "optimizer": "adam",
+        "lr": 0.0001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_iters": 10000
+    },
+    "h4s4l4": {
+        "dataset_name": "shapes3d",
+        "dataset_kwargs": {
+            "protocol": "hsl",
+            "train_fraction": 0.8,
+            "split_seed": 1999
+        },
+        "num_classes": 4,
+        "network_name": "resnet44",
+        "n_groups_hue": 4,
+        "n_groups_saturation": 4,
+        "n_groups_luminance": 4,
+        "manual_seed": 1999,
+        "optimizer": "adam",
+        "lr": 0.0001,
+        "scheduler": "none",
+        "batch_size": 128,
+        "loss_name": "cross_entropy",
+        "n_iters": 10000
+    }
+}

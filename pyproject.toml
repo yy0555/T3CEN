@@ -1,0 +1,28 @@
+[project]
+name = "t3cen"
+version = "0.1.0"
+description = "Hypertoroidal color equivariant networks for A Hypertoroidal Covering for Perfect Color Equivariance"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "click==8.1.7",
+    "h5py==3.9.0",
+    "lightning==2.5.5",
+    "matplotlib==3.8.0",
+    "numpy==1.26.4",
+    "pandas==2.1.4",
+    "pillow==10.2.0",
+    "pyarrow==14.0.2",
+    "tensorboard==2.20.0",
+    "torch==2.7.1",
+    "torchmetrics==1.8.2",
+    "torchvision==0.22.1",
+    "wilds==2.0.0",
+]
+
+[tool.uv]
+# Run this research code from the checkout with python -m exp.<entrypoint>.
+package = false
+# Keep the two distributions provided by Lightning on the same release.
+constraint-dependencies = ["pytorch-lightning==2.5.5"]

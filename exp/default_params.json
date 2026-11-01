@@ -1,0 +1,21 @@
+{
+    "experiment_name": "untitled",
+    "manual_seed": 1999,
+
+    "network_name": "resnet18",
+    "num_classes": 10,
+    "lr": 0.001,
+    "optimizer": "adam",
+    "scheduler": "none",
+
+    "dataset_name": "cifar",
+    "dataset_kwargs": {},
+    "batch_size": 64,
+    "loss_name": "cross_entropy",
+
+    "n_groups_hue": 1,
+    "n_groups_saturation": 1,
+    "n_groups_luminance": 1,
+
+    "resume": ""
+}
